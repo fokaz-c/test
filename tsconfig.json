@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES6",                                    /* Set to ES6 for modern Node.js compatibility. */
+
+    /* Modules */
+    "module": "commonjs",                                /* CommonJS is standard for Node.js. */
+    "rootDir": "./src",                                  /* Source folder. */
+    "outDir": "./dist",                                  /* Compiled output folder. */
+
+    /* Interop Constraints */
+    "esModuleInterop": true,                             /* Enable interop for importing CommonJS modules. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure consistent casing in imports. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}

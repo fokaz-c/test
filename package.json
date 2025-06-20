@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "for api testing nothing special",
+  "main": "index.js","scripts": {
+  "start": "node dist/index.js",
+  "dev": "nodemon src/index.ts",
+  "build": "tsc"
+}
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fokaz-c/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fokaz-c/test/issues"
+  },
+  "homepage": "https://github.com/fokaz-c/test#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
